@@ -97,65 +97,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </ul>
                 <a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
             </nav>
-            <nav class="top-nav horizontal-menu">
-                <div class="container" style="margin-top:50px;">
-                    <div class="row">
-                        <div class="row nav-row">
-                            <ul class="col-md-12 col-md-push-1 top-nav nav_list">
-                                <div class="col-md-2 active">
-                                    <li class="menu-link">
-                                    <a class=" dropdown-toggle" href="#">
-                                        <span class="glyphicon icon-folder"></span>
-                                        <br/>Code
-                                    </a>
-                                        <ul class="dropdown-menu" data-role="dropdown">
-                                            <li class="menu-link">
-                                                <a class=" dropdown-toggle" href="#">Tips & tricks</a>
-                                                <ul class="dropdown-menu" data-role="dropdown">
-                                                    <li><a href="#">Yii</a></li>
-                                                    <li><a href="#">Javascript</a></li>
-                                                    <li><a href="#">Php</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Plugins</a></li>
-                                            <li><a href="#">News</a></li>
-                                        </ul>
-                                    </li>
-                                </div>
-                                <div class="col-md-2 active">
-                                    <p>
-                                        <span class="glyphicon glyphicon-calendar"></span>
-                                        <li class="menu-link page-scroll">
-                                            <a class="menu-link" href="blog.html">blog</a>
-                                        </li>
-                                    </p>
-                                </div>
-                                <div class="col-md-2" style="border:0px solid #000000; margin-top: -30px;">
-                                        <li class="menu-link page-scroll">
-                                            <a title="hexa" href="#about">
-                                                <img src="images/userlogo2.png" alt="" class="responsive"/>
-                                            </a>
-<!--                                            <a class="menu-link" href="#about">About</a>-->
-                                        </li>
-                                </div>
-                                <div class="col-md-2">
-                                    <span class="glyphicon glyphicon-leaf"></span>
-                                    <p>
-                                        <li class="menu-link" ><a href="portfolio.html">portfolio</a></li>
-                                    </p>
-                                </div>
-                                <div class="col-md-2">
-                                    <span class="glyphicon glyphicon-time"></span>
-                                    <p>
-                                        <li class="menu-link page-scroll"><a href="#contact">contact</a></li>
-                                    </p>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--                    <a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>-->
-            </nav>
             <div class="clearfix"></div>
         </div>
     </div>
