@@ -19,8 +19,8 @@ $this->title = 'Personal';
 										<img class="img-circle" src="http://wp-desk.com/lovinflat/images/persons/person_1.png" style="width: 100px;height:100px;">
 									</div>
 									<div class="col-sm-9">
-										<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-										<small>Someone famous</small>
+										<p>äpplen ramlar inte långt från BUSKAGET</p>
+										<small>Gusten</small>
 									</div>
 								</div>
 							</blockquote>
