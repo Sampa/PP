@@ -7,6 +7,7 @@ $this->title = 'Personal';
 
 <div class="site-index">
     <div class="body-content">
+
         <div class='row'>
             <div class='col-md-offset-2 col-md-8'>
                 <div class="carousel slide" data-ride="carousel" id="quote-carousel">
