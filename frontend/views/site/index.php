@@ -4,7 +4,6 @@
  */
 $this->title = 'Personal';
 ?>
-
 <div class="site-index">
 	<div class="body-content">
 		<div class="main_bg"  id="about"><!-- start about us -->
@@ -67,7 +66,7 @@ $this->title = 'Personal';
 		</div>
 		<div class="row">
 			<div class="col-lg-4">
-				<div class="notice marker-on-bottom no-desktop padding10 bg-lighterBlue text-center ">
+				<div class="notice marker-on-bottom no-desktop padding10 bg-orange text-center ">
 					<p class="subheader-secondary fg-white no-margin">Work</p>
 				</div>
 				<ol class="styled">
@@ -77,7 +76,7 @@ $this->title = 'Personal';
 				</ol>
 			</div>
 			<div class="col-lg-4">
-				<div class="notice marker-on-bottom no-desktop padding10 bg-lighterBlue text-center ">
+				<div class="notice marker-on-bottom no-desktop padding10 bg-green text-center ">
 					<p class="subheader-secondary fg-white no-margin">Education</p>
 				</div>
 				<ol class="styled">
@@ -87,7 +86,7 @@ $this->title = 'Personal';
 				</ol>
 			</div>
 			<div class="col-lg-4">
-				<div class="notice marker-on-bottom no-desktop padding10 bg-lighterBlue text-center ">
+				<div class="notice marker-on-bottom no-desktop padding10 bg-indigo text-center ">
 					<p class="subheader-secondary fg-white no-margin">Spare time</p>
 				</div>
 				<ol class="styled">

@@ -113,7 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 
 <footer id="contact" class="footer_bg container sideBorders ">
-    <div class="panel" data-role="panel">
+    <div id="contactPanel" class="panel" data-role="panel">
         <div class="panel-header">
             <span class="headerText" style="color:#57E0C4;">Contact me</span>
         </div>
@@ -165,57 +165,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         });
     });
 </script>
-<!---- start-smoth-scrolling---->
-<style>
-    /*
-Inspired by http://dribbble.com/shots/890759-Ui-Kit-Metro/attachments/97174
-*/
-    .nav-row {
-        text-align: center;
-    }
-    .nav-row p {
-        padding: 5px;
-    }
-    .nav-row .col-md-2 {
-        background-color: #fff;
-        border: 1px solid #e0e1db;
-        border-right: none;
-    }
-    .nav-row .col-md-2:last-child {
-        border: 1px solid #e0e1db;
-    }
-    .nav-row .col-md-2:first-child {
-        border-radius: 5px 0 0 5px;
-    }
-    .nav-row .col-md-2:last-child {
-        border-radius: 0 5px 5px 0;
-    }
-    .nav-row .col-md-2:hover {
-        color: #e92d00;
-        cursor: pointer;
-    }
-    .nav-row .active {
-        color: #e92d00;
-        margin-top: -6px;
-        border-top: 6px solid #e92d00;
-        border-bottom: 6px solid #e92d00;
-    }
-    .nav-row .active:before {
-        content: '';
-        position: absolute;
-        border-style: solid;
-        border-width: 6px 6px 0;
-        border-color: #e92d00 transparent;
-        display: block;
-        width: 0;
-        z-index: 1;
-        margin-left: -6px;
-        top: 0;
-        left: 50%;
-    }
-    .nav-row .glyphicon {
-        padding-top: 15px;
-        font-size: 40px;
-    }
-
-</style>
