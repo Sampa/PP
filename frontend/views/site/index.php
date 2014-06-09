@@ -66,7 +66,7 @@ $this->title = 'Personal';
 		</div>
 		<div class="row">
 			<div class="col-lg-4">
-				<div class="notice marker-on-bottom no-desktop padding10 bg-orange text-center ">
+				<div class="notice marker-on-bottom no-desktop padding10 bg-blue text-center ">
 					<p class="subheader-secondary fg-white no-margin">Work</p>
 				</div>
 				<ol class="styled">
@@ -76,7 +76,7 @@ $this->title = 'Personal';
 				</ol>
 			</div>
 			<div class="col-lg-4">
-				<div class="notice marker-on-bottom no-desktop padding10 bg-green text-center ">
+				<div class="notice marker-on-bottom no-desktop padding10 bg-darkblue text-center ">
 					<p class="subheader-secondary fg-white no-margin">Education</p>
 				</div>
 				<ol class="styled">
@@ -86,7 +86,7 @@ $this->title = 'Personal';
 				</ol>
 			</div>
 			<div class="col-lg-4">
-				<div class="notice marker-on-bottom no-desktop padding10 bg-indigo text-center ">
+				<div class="notice marker-on-bottom no-desktop padding10 bg-cobalt text-center ">
 					<p class="subheader-secondary fg-white no-margin">Spare time</p>
 				</div>
 				<ol class="styled">
@@ -97,5 +97,5 @@ $this->title = 'Personal';
 			</div>
 		</div>
 
-	</div>
+    </div>
 </div>
