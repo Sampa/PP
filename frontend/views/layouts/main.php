@@ -79,12 +79,12 @@ AppAsset::register($this);
                     </li>
                     <li class="logo menu-link page-scroll">
                         <a title="Sofie" href="<?=Url::toRoute(["/site/index", "#"=>"about"]);?>">
-                            <img src="/images/userlogo.png" alt="" class="responsive"/>
+                            <img src="images/me.jpg" alt="" class="responsive"/>
                         </a>
                     </li>
                     <li class="menu-link page-scroll"><a href="<?=Url::toRoute(["/site/index", "#"=>"about"]);?>">About</a></li>
                     <li class="menu-link" ><a href="<?=Url::toRoute(["/site/portfolio"]);?>">portfolio</a></li>
-                    <li class="menu-link page-scroll"><a href="#contact">contact</a></li>
+                    <li class="menu-link page-scroll"><a href="<?php echo Url::toRoute(["/site/contact"]);?>">contact</a></li>
                 </ul>
                 <a href="#" id="pull"><img src="/images/nav-icon.png" title="menu" /></a>
             </nav>
