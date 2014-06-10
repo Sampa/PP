@@ -37,14 +37,14 @@ $this->title = 'Personal';
 								</div>
 							</blockquote>
 						</div>
-						<!--                        <a class="controls left"><i class="icon-arrow-left-3"></i></a>-->
-						<!--                        <a class="controls right"><i class="icon-arrow-right-3"></i></a>-->
+<!--	                        <a class="controls left"><i class="icon-arrow-left-3"></i></a>-->
+<!--	                        <a class="controls right"><i class="icon-arrow-right-3"></i></a>-->
 					</div>
 					</p>
 				</div>
 				<div class="row about">
 					<div class="col-md-3 about_img">
-						<img src="images/user.png" alt="" class="responsive"/>
+						<img src="/images/user.png" alt="" class="responsive"/>
 					</div>
 					<div class="col-md-9 about_text">
 						<h3>smith anderson</h3>

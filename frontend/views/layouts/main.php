@@ -1,5 +1,6 @@
 <?php
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
@@ -20,19 +21,6 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-</head>
-<body>
-<?php $this->beginBody() ?>
-
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
     <title>Hexa a portfolio bootstrap Website Template | Home :: w3layouts</title>
 	<script src="/frontend/web/js/jquery.min.js"></script>
 	<!-- Bootstrap -->
@@ -62,7 +50,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         });
     </script>
 </head>
-<body class="metro">
+<body>
+<?php $this->beginBody() ?>
+<body class="metro" id="top">
 <div class="header_bg" id="home"><!-- start header -->
     <div class="container">
         <div class="row header text-center specials">
@@ -85,43 +75,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </ul>
                     </li>
                     <li class="menu-link page-scroll">
-                        <a class="menu-link" href="blog.html">blog</a>
+                        <a class="" href="<?=Url::toRoute(["/site/blog"]);?>">blog</a>
                     </li>
                     <li class="logo menu-link page-scroll">
-                        <a title="hexa" href="index.html#about">
-                            <img src="images/userlogo.png" alt="" class="responsive"/>
+                        <a title="Sofie" href="<?=Url::toRoute(["/site/index", "#"=>"about"]);?>">
+                            <img src="/images/userlogo.png" alt="" class="responsive"/>
                         </a>
                     </li>
-<!--                    <li class="page-scroll"><a href="#about">About</a></li>-->
-                    <li class="menu-link" ><a href="portfolio.html">portfolio</a></li>
+                    <li class="menu-link page-scroll"><a href="<?=Url::toRoute(["/site/index", "#"=>"about"]);?>">About</a></li>
+                    <li class="menu-link" ><a href="<?=Url::toRoute(["/site/portfolio"]);?>">portfolio</a></li>
                     <li class="menu-link page-scroll"><a href="#contact">contact</a></li>
                 </ul>
-                <a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+                <a href="#" id="pull"><img src="/images/nav-icon.png" title="menu" /></a>
             </nav>
             <div class="clearfix"></div>
         </div>
     </div>
 </div>
 <div class="wrap">
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
+    <div class="container" style="padding: 0px;">
+        <?php
+/// echo Breadcrumbs::widget([
+//            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+//        ]);
+        ?>
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>
 </div>
-
 <footer id="contact" class="footer_bg container sideBorders ">
     <div id="contactPanel" class="panel" data-role="panel">
         <div class="panel-header">
-            <span class="headerText" style="color:#57E0C4;">Contact me</span>
+            <span class="headerText" style="color:#57E0C4;">Contact me </span>
         </div>
         <div class="panel-content">
             <div class="row">
                 <div class="col-md-8 contact_left">
                     <h4>In order to get in touch use the contact form below:</h4>
-                    <form method="post" action="contact-post.html">
+	                <form method="post" action="contact-post.html">
                         <input type="text" value="Name (Required)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
                         <input type="text" value="Email (Required)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
                         <input type="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
@@ -142,6 +133,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
         </div>
     </div>
+	<!-- pilen som man kan trycka på för att komma till toppen igen -->
+	<a href="#top" id="toTop"><span id="topHover"></span></a>
 </footer>
 
 <?php $this->endBody() ?>

@@ -16,7 +16,7 @@ use yii\filters\AccessControl;
 /**
  * Site controller
  */
-class SiteController extends Controller
+class SiteController extends AppController
 {
     /**
      * @inheritdoc
@@ -114,6 +114,14 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+	public function actionBlog()
+    {
+        return $this->render('blog');
+    }
+	public function actionPortfolio()
+    {
+        return $this->render('portfolio');
     }
 
     public function actionSignup()
