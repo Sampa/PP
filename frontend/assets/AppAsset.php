@@ -31,6 +31,7 @@ class AppAsset extends AssetBundle
         'js/jquery.fancybox-1.2.1.js',
         'js/jquery.wmuSlider.js',
         'js/site.js',
+//        'js/jquery.min.js',
         'metro/js/jquery.widget.min.js',
         'metro/js/metro-dropdown.js',
         'metro/js/metro.min.js'

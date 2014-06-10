@@ -22,7 +22,7 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
     <title>Hexa a portfolio bootstrap Website Template | Home :: w3layouts</title>
-	<script src="/frontend/web/js/jquery.min.js"></script>
+	<script src="<?=Url::home();?>js/jquery.min.js"></script>
 	<!-- Bootstrap -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -79,7 +79,7 @@ AppAsset::register($this);
                     </li>
                     <li class="logo menu-link page-scroll">
                         <a title="Sofie" href="<?=Url::toRoute(["/site/index", "#"=>"about"]);?>">
-                            <img src="images/me.jpg" alt="" class="responsive"/>
+                            <img src="/images/userlogo.png" alt="" class="responsive"/>
                         </a>
                     </li>
                     <li class="menu-link page-scroll"><a href="<?=Url::toRoute(["/site/index", "#"=>"about"]);?>">About</a></li>
@@ -104,6 +104,10 @@ AppAsset::register($this);
     </div>
 </div>
 <footer id="contact" class="footer_bg container sideBorders ">
+    <div class="copy text-center">
+        <a href="#home" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+    </div>
+
     <div id="contactPanel" class="panel" data-role="panel">
         <div class="panel-header">
             <span class="headerText" style="color:#57E0C4;">Contact me </span>
