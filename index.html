@@ -1,0 +1,300 @@
+
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hexa a portfolio bootstrap Website Template | Home :: w3layouts</title>
+<!-- Bootstrap -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="metro/js/jquery.widget.min.js"></script>
+    <script src="metro/js/metro.min.js"></script>
+    <script src="metro/js/metro-dropdown.js"></script>
+
+    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="metro/css/metro-bootstrap.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!----font-Awesome----->
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+    <!----font-Awesome----->
+    <!-- start plugins -->
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script></head>
+<body class="metro">
+<div class="header_bg" id="home"><!-- start header -->
+    <div class="container">
+        <div class="row header text-center specials">
+            <div class="h_logo">
+                <a href="index.html"><img src="images/logo.png" alt="" class="responsive"/></a>
+            </div>
+            <nav class="top-nav horizontal-menu">
+                <!--
+Inspired by http://dribbble.com/shots/890759-Ui-Kit-Metro/attachments/97174
+-->
+                <div class="container" style="margin-top:100px;">
+                    <div class="row">
+                        <div class="row nav-row">
+                            <div class="col-md-2">
+                                <span class="glyphicon glyphicon-folder-close"></span>
+                                <p>Shopping</p>
+                            </div>
+                            <div class="col-md-2 active">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                                <p>Calendar</p>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="glyphicon glyphicon-globe"></span>
+                                <p>Network</p>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="glyphicon glyphicon-leaf"></span>
+                                <p>Ecology</p>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="glyphicon glyphicon-time"></span>
+                                <p>Statistics</p>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="glyphicon glyphicon-bell"></span>
+                                <p>Events</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="top-nav nav_list">
+                    <li class="menu-link">
+                        <a class=" dropdown-toggle" href="#">Code</a>
+                        <ul class="dropdown-menu" data-role="dropdown">
+                            <li class="menu-link">
+                                <a class=" dropdown-toggle" href="#">Tips & tricks</a>
+                                <ul class="dropdown-menu" data-role="dropdown">
+                                    <li><a href="#">Yii</a></li>
+                                    <li><a href="#">Javascript</a></li>
+                                    <li><a href="#">Php</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Plugins</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-link page-scroll">
+                        <a class="menu-link" href="blog.html">blog</a>
+                    </li>
+                    <li class="logo menu-link page-scroll">
+                        <a title="hexa" href="index.html#about">
+                            <img src="images/userlogo.png" alt="" class="responsive"/>
+                        </a>
+                    </li>
+                    <!--<li class="page-scroll"><a href="#about">About</a></li>-->
+                    <li class="menu-link" ><a href="portfolio.html">portfolio</a></li>
+                    <li class="menu-link page-scroll"><a href="#contact">contact</a></li>
+                </ul>
+                <a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="main_bg"  id="about"><!-- start about us -->
+
+<div class="container sideBorder">
+
+    <div class="jumbotron" style="padding-top:25px;padding-bottom: 10px;">
+         <!--<h1>Hello, world ;)  Welcome to best of PersonalSite</h1>-->
+        <div class="carousel" style="margin-left: auto;margin-right: auto; max-width: 100%;" data-role="carousel">
+            <div class="slide">
+                <div class="col-sm-12">
+                    <div class="notice marker-on-bottom no-desktop padding10 bg-lighterBlue text-center ">
+                        <p class="subheader-secondary fg-white no-margin">How I see Service</p>
+                    </div>
+                    <ol class="styled">
+                        <li style="width: 90%">Create page with <strong>HTML5 DOCTYPE</strong></li>
+                        <li style="width: 90%">Include <strong>metro-bootstrap.css</strong></li>
+                        <li style="width: 90%">Include <strong>metro.min.js</strong> (jquery.js required)</li>
+                        <li style="width: 90%">Create main container with class <strong>.metro</strong></li>
+                    </ol>
+                </div>
+                <!--<img src="images/slider1.jpg" alt="" class="responsive"/>-->
+            </div>
+            <div class="slide">
+                <img src="images/slider.jpg" alt="" class="responsive"/>
+            </div>
+            <a class="controls left"><i class="icon-arrow-left-3"></i></a>
+            <a class="controls right"><i class="icon-arrow-right-3"></i></a>
+        </div>
+        </p>
+        <p>
+            <button class="button large success" role="button" style="color:#FFFFFF;">Learn more</button>
+        </p>
+    </div>
+    <div class="row about">
+		<div class="col-md-3 about_img">
+			<img src="images/user.png" alt="" class="responsive"/>
+		</div>
+		<div class="col-md-9 about_text">
+			<h3>smith anderson</h3>
+			<h4>illustrator & character designer</h4>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+			<div class="soc_icons navbar-right">
+				<ul class="list-unstyled text-center">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="footer_bg" id="contact"><!-- start footer -->
+<div class="container sideBorders" style="">
+    <div class="panel" data-role="panel">
+        <div class="panel-header">
+            <span class="headerText" style="color:#57E0C4;">Contact me</span>
+        </div>
+        <div class="panel-content">
+
+        <div class="row footer">
+		<div class="col-md-8 contact_left">
+
+			<h4>In order to get in touch use the contact form below:</h4>
+			<form method="post" action="contact-post.html">
+				<input type="text" value="Name (Required)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+				<input type="text" value="Email (Required)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+				<input type="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+				<textarea onfocus="if(this.value == 'Your Message here....') this.value='';" onblur="if(this.value == '') this.value='Your Message here....;" >Your Message here....</textarea>
+				<span class="pull-right">
+                    <button class="button large success" type="submit" value="submit us">Submit</button>
+                </span>
+			</form>
+		</div>
+		<div class="col-md-4  contact_right">
+			<p><span>Lorem Ipsum is simply dummy text: </span> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+			<ul class="list-unstyled address">
+				<li><i class="fa fa-map-marker"></i><span>500 Lorem Ipsum Dolor Sit,</span></li>
+				<li><i class="fa fa-phone"></i><span>(00) 222 666 444</span></li>
+				<li><i class="fa fa-envelope"></i><a href="mailto:info@mycompany.com">info(at)mycompany.com</a></li>
+			</ul>
+		</div>
+	</div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer1_bg"><!-- start footer1 -->
+	<div class="container">
+		<div class="row  footer">
+			<div class="copy text-center">
+				<p class="link"><span>&#169; All rights reserved | Template by&nbsp;<a href="http://w3layouts.com/"> W3Layouts</a></span></p>
+				<a href="#home" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+			</div>
+		</div>
+		<script type="text/javascript">
+				$(function() {
+				  $('a[href*=#]:not([href=#])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html,body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+				});
+		</script>
+		<!---- start-smoth-scrolling---->
+	</div>
+</div>
+<style TYPE="text/css">
+    /*
+Inspired by http://dribbble.com/shots/890759-Ui-Kit-Metro/attachments/97174
+*/
+    body {
+        background: url(http://habrastorage.org/files/90a/010/3e8/90a0103e8ec749c4843ffdd8697b10e2.jpg);
+    }
+    .nav-row {
+        text-align: center;
+    }
+    .nav-row p {
+        padding: 5px;
+    }
+    .nav-row .col-md-2 {
+        background-color: #fff;
+        border: 1px solid #e0e1db;
+        border-right: none;
+    }
+    .nav-row .col-md-2:last-child {
+        border: 1px solid #e0e1db;
+    }
+    .nav-row .col-md-2:first-child {
+        border-radius: 5px 0 0 5px;
+    }
+    .nav-row .col-md-2:last-child {
+        border-radius: 0 5px 5px 0;
+    }
+    .nav-row .col-md-2:hover {
+        color: #e92d00;
+        cursor: pointer;
+    }
+    .nav-row .active {
+        color: #e92d00;
+        margin-top: -6px;
+        border-top: 6px solid #e92d00;
+        border-bottom: 6px solid #e92d00;
+    }
+    .nav-row .active:before {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 6px 6px 0;
+        border-color: #e92d00 transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -6px;
+        top: 0;
+        left: 50%;
+    }
+    .nav-row .glyphicon {
+        padding-top: 15px;
+        font-size: 40px;
+    }
+
+</style>
+</body>
+</html>
