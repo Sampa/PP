@@ -25,7 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
 							</li>
 							<div id="comentsid">
 								<li>
-									<a href="">
+									<a href="#">
 										<i class="fa fa-coment" ></i>
 										<span>Coments</span>
 									
