@@ -1,12 +1,15 @@
 /**sånt som ska köras när sidan laddats klart, dvs ej funktioner eller händelsehanterare (typ on click etc)**/
 $(document).ready(function(){
     /** JAVASCRIPT FÖR SITE/INDEX.php **/
+    /* Carouselen på startsidan
+    * Documentation på options och dess alternativ: http://metroui.org.ua/carousel.html
+     */
     $('.carousel').carousel({
         auto: true,
         period: 5000,
         duration: 2000,
         markers: {
-            type: "square"
+            type: "square" // default, cycle eller square t.ex
         }
 //        height:150
     });
