@@ -553,23 +553,19 @@ h2.style,#contactHeader{
 }
 /* start read_more */
 .read_more{
-	margin: 4% 0;
+	margin-top: 5px;
 }
 .read_more.btm{
 	margin-bottom: 8%;
 }
 .read_more a{
-	background: #2EB398;
 	text-transform: uppercase;
 	font-weight: 100;
-	border: none;
-	color: #ffffff;
-	padding: 12px 24px;
-	font-size: 13px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+    margin-top: 89%;
 }
 .read_more a:hover{
 	text-decoration:none;

@@ -7,8 +7,8 @@ $(document).ready(function(){
         duration: 2000,
         markers: {
             type: "square"
-        },
-        height:150
+        }
+//        height:150
     });
     /** end site/index.php**/
 });
