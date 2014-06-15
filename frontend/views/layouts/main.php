@@ -93,7 +93,7 @@ AppAsset::register($this);
     </div>
 </div>
 <div class="wrap">
-    <div class="" style="margin-left: 1%;margin-right: 1%;width: 98%;">
+    <div class="defaultWidth" style="">
         <?php
 /// echo Breadcrumbs::widget([
 //            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
@@ -103,7 +103,7 @@ AppAsset::register($this);
         <?= $content ?>
     </div>
 </div>
-<div id="footerWrapper">
+<div id="footerWrapper" class="defaultWidth">
 	<footer id="contact" class="sideBorders" style="">
 	<div class="copy text-center">
         <a href="#home" id="toTop" style="display: block;">

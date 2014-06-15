@@ -2,7 +2,15 @@ html,
 body {
 	height: 100%;
 }
+/*
+    En klass som styr bredden på sidan, både footern och resten använder denna klass
 
+*/
+.defaultWidth{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 .wrap {
 	min-height: 100%;
 	height: auto;
@@ -12,13 +20,6 @@ body {
 
 .wrap > .container {
     padding: 70px 15px 20px;
-}
-
-.footer {
-	height: 60px;
-	background-color: #f5f5f5;
-	border-top: 1px solid #ddd;
-	padding-top: 20px;
 }
 
 .jumbotron {
@@ -261,8 +262,6 @@ site/index.php
 #contact{
 }
 #footerWrapper{
-    width: 98%;
-    margin-left: 1%;
 }
 /** END LAYOUTS MAIN **/
 
