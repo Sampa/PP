@@ -3,6 +3,8 @@
 namespace frontend\tests\unit\models;
 
 use Yii;
+require_once(__DIR__."/../DbTestCase.php");
+
 use frontend\tests\unit\DbTestCase;
 use frontend\models\PasswordResetRequestForm;
 use common\tests\fixtures\UserFixture;

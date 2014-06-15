@@ -6,7 +6,9 @@
  */
 
 namespace yii\codeception;
-
+require_once(__DIR__."/../yii2/Yii.php");
+require_once(__DIR__."/../yii2/base/InvalidConfigException.php");
+require_once(__DIR__."/../yii2/base/Component.php");
 use Yii;
 use yii\base\Component;
 use yii\base\InvalidConfigException;

@@ -18,6 +18,9 @@ modules:
             password: 'guest'
             vhost: '/'
             queues: [queue1, queue2]
+        Yii2:
+        entryScript: frontend/web/index.php
+        url: http://frontend.per/index.php
 coverage:
     enabled: true
     include:

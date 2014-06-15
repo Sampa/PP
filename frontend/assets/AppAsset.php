@@ -18,12 +18,12 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/jquery.fancybox.css',
+        'frontend/web/css/jquery.fancybox.css',
         'metro/css/metro-bootstrap.css',
 	    'metro/css/iconFont.css',
 	    'fonts/css/font-awesome.min.css',
 	    //keep these two at the end of this array so none of our custom css is overridden
-	    'css/style.css',
+	    'frontend/web/css/style.css',
 	    'css/site.css',
     ];
     public $js = [
@@ -31,7 +31,6 @@ class AppAsset extends AssetBundle
         'js/jquery.fancybox-1.2.1.js',
         'js/jquery.wmuSlider.js',
         'js/site.js',
-//        'js/jquery.min.js',
         'metro/js/jquery.widget.min.js',
         'metro/js/metro-dropdown.js',
         'metro/js/metro.min.js'
