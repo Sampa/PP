@@ -7,5 +7,7 @@ class_name: CodeGuy
 modules:
     enabled: [CodeHelper,Yii2]
     config:
-            Yii2:
-                configFile: 'tests/functional/_config.php'
+         Yii2:
+             entryScript: frontend/web/index.php
+             url: http://frontend.per/index.php
+             configFile: 'frontend/tests/_config.php'

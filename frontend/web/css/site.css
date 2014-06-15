@@ -254,7 +254,16 @@ site/index.php
 #contactPanel{
     border:0px solid black;
 }
-
+#contactPanel .panel-content{
+    margin-top: -30px;
+    /*background-color: #c9e2b3*/
+}
+#contact{
+}
+#footerWrapper{
+    width: 98%;
+    margin-left: 1%;
+}
 /** END LAYOUTS MAIN **/
 
 /* sofies kommentarer css */

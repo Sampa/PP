@@ -22,13 +22,13 @@ class AppAsset extends AssetBundle
         'metro/css/metro-bootstrap.css',
 	    'metro/css/iconFont.css',
 	    'fonts/css/font-awesome.min.css',
-	    //keep these two at the end of this array so none of our custom css is overridden
+//	    keep these two at the end of this array so none of our custom css is overridden
 	    'css/style.css',
 	    'css/site.css',
     ];
     public $js = [
         'js/jquery.easing.1.3.js',
-        'js/jquery.fancybox-1.2.1.js',
+//        'js/jquery.fancybox-1.2.1.js',
         'js/jquery.wmuSlider.js',
         'js/site.js',
         'metro/js/jquery.widget.min.js',

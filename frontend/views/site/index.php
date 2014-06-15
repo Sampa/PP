@@ -9,7 +9,6 @@ $this->title = 'Personal';
 		<div class="main_bg"  id="about"><!-- start about us -->
 			<div class="container sideBorder">
 				<div class="">
-					<h1>Hello, world ;)</h1>
 					<div class="carousel" id="quote-carousel" style="margin-left: auto;margin-right: auto; max-width: 100%;">
 						<div class="slide">
 							<blockquote>

@@ -4,7 +4,7 @@ namespace frontend\tests\acceptance;
 
 use frontend\tests\_pages\SignupPage;
 use common\models\User;
-
+require_once(__DIR__."/../_pages/SignupPage.php");
 class SignupCest
 {
 

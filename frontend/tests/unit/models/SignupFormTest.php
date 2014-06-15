@@ -1,7 +1,8 @@
 <?php
 
 namespace frontend\tests\unit\models;
-
+require_once(__DIR__."/../DbTestCase.php");
+require_once(__DIR__."/../../../../common/tests/fixtures/UserFixture.php");
 use frontend\tests\unit\DbTestCase;
 use common\tests\fixtures\UserFixture;
 

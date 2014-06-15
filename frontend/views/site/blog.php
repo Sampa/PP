@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
 			<div class="col-md-8 blog_left">
 				<h2 class="style">our recent blogs</h2>
 				<div class="blog_main">
-					<a href="single-page.html"><img src="images/blog_pic1.jpg" alt="" class="blog_img img-responsive"/></a>
+					<a href="single-page.html"><img src="/images/blog_pic1.jpg" alt="" class="blog_img img-responsive"/></a>
 					<h4><a href="single-page.html">Lorem Ipsum is simply dummy text of the printingy </a></h4>
 					<div class="blog_list pull-left">
 						<ul class="list-unstyled">
@@ -180,10 +180,10 @@ $this->params['breadcrumbs'][] = $this->title;
 			<div class="col-md-4 blog_right">
 				<ul class="ads_nav list-unstyled">
 					<h4>Ads 125 x 125</h4>
-					<li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-					<li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-					<li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-					<li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
+					<li><a href="#"><img src="/images/ads_pic.jpg" alt=""> </a></li>
+					<li><a href="#"><img src="/images/ads_pic.jpg" alt=""> </a></li>
+					<li><a href="#"><img src="/images/ads_pic.jpg" alt=""> </a></li>
+					<li><a href="#"><img src="/images/ads_pic.jpg" alt=""> </a></li>
 					<div class="clearfix"></div>
 				</ul>
 				<ul class="tag_nav list-unstyled">

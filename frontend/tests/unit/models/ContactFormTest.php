@@ -3,6 +3,8 @@
 namespace frontend\tests\unit\models;
 
 use Yii;
+require_once(__DIR__."/../TestCase.php");
+require_once(__DIR__."/../../../models/ContactForm.php");
 use frontend\tests\unit\TestCase;
 use frontend\models\ContactForm;
 

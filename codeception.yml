@@ -1,11 +1,11 @@
 actor: Tester
 paths:
-    tests: tests
-    log: tests/_output
-    data: tests/_data
-    helpers: tests/_support
+    tests: frontend/tests
+    log: frontend/tests/_log
+    data: frontend/tests/_data
+    helpers: frontend/tests/_helpers
 settings:
-    bootstrap: _bootstrap.php
+    bootstrap: ../_bootstrap.php
     colors: false
     memory_limit: 1024M
 modules:
@@ -16,5 +16,5 @@ modules:
             password: ''
             dump: tests/_data/dump.sql
         Yii2:
-            entryScript: /personal/frontend/web/index.php
+            entryScript: frontend/web/index.php
             url: http://frontend.per/index.php
