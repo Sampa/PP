@@ -14,13 +14,13 @@ $(document).ready(function(){
 //        height:150
     });
     /** end site/index.php**/
-});
-/**END DOCUMENT READY SECTIONEN**/
-/** händelsehanterare **/
-$(function() {
+
+    /** Händelsehanterare här, typ vid klick på saker ,hoover och sådant**/
+
     /*
-    *Exempel: scrollar vyn till elementId vid klick på länkar som har href="#elementId"
-    * */
+    *ger oss lite mer smooth scrolling med länkar som har href="#foo"
+     *Exempel: scrollar vyn till elementId vid klick på länkar som har href="#elementId"
+     * */
     $('a[href*=#]:not([href=#])').on("click",function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
@@ -57,3 +57,4 @@ $(function() {
      * End comments
      */
 });
+/**END DOCUMENT READY SECTIONEN**/
