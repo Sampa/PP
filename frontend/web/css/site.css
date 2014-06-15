@@ -254,5 +254,9 @@ site/index.php
 #contactPanel{
     border:0px solid black;
 }
-
+#contactPanel .panel-content{
+    margin-top: -30px;
+}
+#contact{
+}
 /** END LAYOUTS MAIN **/
