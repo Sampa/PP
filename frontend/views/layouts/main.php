@@ -93,7 +93,7 @@ AppAsset::register($this);
     </div>
 </div>
 <div class="wrap">
-    <div class="container" style="padding: 0px;">
+    <div class="" style="margin-left: 1%;margin-right: 1%;width: 98%;">
         <?php
 /// echo Breadcrumbs::widget([
 //            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],

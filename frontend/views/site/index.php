@@ -31,7 +31,7 @@ $this->title = 'Personal';
 					</div>
 				</div>
 			</div>
-			<div class="container sideBorder">
+			<div class=" sideBorder">
 				<div class="">
 					<div class="carousel" id="quote-carousel" style="margin-left: auto;margin-right: auto; min-width:100%;">
 						<div class="slide container">
