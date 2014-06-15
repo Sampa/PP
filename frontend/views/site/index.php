@@ -8,9 +8,32 @@ $this->title = 'Personal';
 <div class="site-index">
 	<div class="body-content">
 		<div class="main_bg"  id="about"><!-- start about us -->
+			<div class="photo col-lg-4">
+				<img src="/images/ryan.jpg" alt="" class="img-responsive"/>
+			</div>
+			<div class="row about">
+				<div class="col-md-2 about_img">
+					<img src="/images/user.png" alt="" class="responsive"/>
+				</div>
+				<div class="col-md-8 about_text">
+					<h1>derp derpson</h1>
+					<h4>programmerare & utvecklare</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+					<div class="soc_icons navbar-right">
+						<ul class="list-unstyled text-center">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 			<div class="container sideBorder">
 				<div class="">
-					<div class="carousel" id="quote-carousel" style="margin-left: auto;margin-right: auto; ">
+					<div class="carousel" id="quote-carousel" style="margin-left: auto;margin-right: auto; min-width:100%;">
 						<div class="slide container">
 							<div class="col-sm-12">
 								<div class="col-sm-3" style="margin-top: 30px;">
@@ -36,7 +59,7 @@ $this->title = 'Personal';
 									<h2 class="style">My first blogpost ;);)</h2>
 									<p class="para">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+										since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 										It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged....
 										<a class="" href="single-page.html">read more</a>
 									</p>
@@ -73,32 +96,7 @@ $this->title = 'Personal';
 					</div>
 				</div>
 			</div>
-
-			<div class="photo col-lg-4">
-				<img src="/images/ryan.jpg" alt="" class="img-responsive"/>
-			</div>
-			<div class="row about">
-				<div class="col-md-2 about_img">
-					<img src="/images/user.png" alt="" class="responsive"/>
-				</div>
-				<div class="col-md-8 about_text">
-					<h1>derp derpson</h1>
-					<h4>programmerare & utvecklare</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-					<div class="soc_icons navbar-right">
-						<ul class="list-unstyled text-center">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
+			<div class="row" style="margin-top: 20px;">
 				<div class="col-lg-4">
 					<div class="notice marker-on-bottom no-desktop padding10 bg-blue text-center ">
 						<p class="subheader-secondary fg-white no-margin">Work</p>
