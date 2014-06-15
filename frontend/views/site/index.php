@@ -43,12 +43,12 @@ $this->title = 'Personal';
 					</p>
 				</div>
 				<div class="row about">
-					<div class="col-md-3 about_img">
+					<div class="col-md-2 about_img">
 						<img src="/images/user.png" alt="" class="responsive"/>
 					</div>
 					<div class="col-md-9 about_text">
-						<h3>smith anderson</h3>
-						<h4>illustrator & character designer</h4>
+						<h1>derp derpson</h1>
+						<h4>programmerare & utvecklare</h4>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
 						<div class="soc_icons navbar-right">
 							<ul class="list-unstyled text-center">

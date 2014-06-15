@@ -38,7 +38,7 @@ body {
 }
 .top-nav {
     *zoom: 1;
-    margin: 0;
+    margin: 30;
 }
 nav {
 	width: 100%;
@@ -223,10 +223,11 @@ nav a#pull {
 .about_img img{
 	width: 100%;
 }
-.about_text h3{
+.about_text h1{
 	font-family: 'Kreon', serif;
-	font-size: 28px;
+	font-size: 48px;
 	text-transform: capitalize;
+	text-align: left;
 }
 .about_text h4{
 	font-family: 'Kreon', serif;

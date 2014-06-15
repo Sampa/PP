@@ -52,12 +52,12 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-<body class="metro" id="top">
+<body class="metro" id="top" style="margin-top:30px">
 <div class="header_bg" id="home"><!-- start header -->
     <div class="container">
         <div class="row header text-center specials">
 
-            <nav class="top-nav horizontal-menu">
+            <nav class="top-nav horizontal-menu" >
                 <ul class="top-nav nav_list">
                     <li class="menu-link">
                         <a class=" dropdown-toggle" href="#">Code</a>

@@ -23,6 +23,14 @@ $this->params['breadcrumbs'][] = $this->title;
 									<span>Comments</span>
 								</a>
 							</li>
+							<div id="comentsid">
+								<li>
+									<a href="">
+										<i class="fa fa-coment" ></i>
+										<span>Coments</span>
+									
+								</li>	
+							</div>
 							<li><i class="fa fa-user"></i><span>Admin</span></li>
 							<li><a href="#"><i class="fa fa-eye"></i><span>124 views</span></a></li>
 						</ul>
@@ -36,6 +44,113 @@ $this->params['breadcrumbs'][] = $this->title;
 						<a href="single-page.html">view more</a>
 					</div>
 				</div>
+<!--- Sofies kommentarer börjar-->
+<div class="container12345" style="display:none" id="kommentarer">
+	<div class="row">
+		<div class="panel panel-default widget">
+			<div class="panel-heading">
+				<span class="glyphicon glyphicon-comment"></span>
+				<h3 class="panel-title">
+					Recent Comments</h3>
+					<span class="label label-info">
+						78</span>
+					</div>
+					<div class="panel-body">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<div class="row">
+									<div class="col-xs-2 col-md-1">
+										<img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+										<div class="col-xs-10 col-md-11">
+											<div>
+												<a href="http://www.jquery2dotnet.com/2013/10/google-style-login-page-desing-usign.html">
+													Google Style Login Page Design Using Bootstrap</a>
+													<div class="mic-info">
+														By: <a href="#">Bhaumik Patel</a> on 2 Aug 2013
+													</div>
+												</div>
+												<div class="comment-text">
+													Awesome design
+												</div>
+												<div class="action">
+													<button type="button" class="btn btn-primary btn-xs" title="Edit">
+														<span class="glyphicon glyphicon-pencil"></span>
+													</button>
+													<button type="button" class="btn btn-success btn-xs" title="Approved">
+														<span class="glyphicon glyphicon-ok"></span>
+													</button>
+													<button type="button" class="btn btn-danger btn-xs" title="Delete">
+														<span class="glyphicon glyphicon-trash"></span>
+													</button>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="list-group-item">
+										<div class="row">
+											<div class="col-xs-2 col-md-1">
+												<img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+												<div class="col-xs-10 col-md-11">
+													<div>
+														<a href="http://bootsnipp.com/BhaumikPatel/snippets/Obgj">Admin Panel Quick Shortcuts</a>
+														<div class="mic-info">
+															By: <a href="#">Bhaumik Patel</a> on 11 Nov 2013
+														</div>
+													</div>
+													<div class="comment-text">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+														euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+													</div>
+													<div class="action">
+														<button type="button" class="btn btn-primary btn-xs" title="Edit">
+															<span class="glyphicon glyphicon-pencil"></span>
+														</button>
+														<button type="button" class="btn btn-success btn-xs" title="Approved">
+															<span class="glyphicon glyphicon-ok"></span>
+														</button>
+														<button type="button" class="btn btn-danger btn-xs" title="Delete">
+															<span class="glyphicon glyphicon-trash"></span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="list-group-item">
+											<div class="row">
+												<div class="col-xs-2 col-md-1">
+													<img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+													<div class="col-xs-10 col-md-11">
+														<div>
+															<a href="http://bootsnipp.com/BhaumikPatel/snippets/4ldn">Cool Sign Up</a>
+															<div class="mic-info">
+																By: <a href="#">Bhaumik Patel</a> on 11 Nov 2013
+															</div>
+														</div>
+														<div class="comment-text">
+															Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+															euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+														</div>
+														<div class="action">
+															<button type="button" class="btn btn-primary btn-xs" title="Edit">
+																<span class="glyphicon glyphicon-pencil"></span>
+															</button>
+															<button type="button" class="btn btn-success btn-xs" title="Approved">
+																<span class="glyphicon glyphicon-ok"></span>
+															</button>
+															<button type="button" class="btn btn-danger btn-xs" title="Delete">
+																<span class="glyphicon glyphicon-trash"></span>
+															</button>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<a href="#" class="btn btn-primary btn-sm btn-block" role="button"><span class="glyphicon glyphicon-refresh"></span> More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+<!--- Sofies kommentarer slutar -->
 				<div class="blog_main">
 					<iframe src="//player.vimeo.com/video/25541923?color=c9161f" width="100%" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 					<h4><a href="single-page.html">Lorem Ipsum is simply dummy text of the printingy </a></h4>
@@ -127,3 +242,10 @@ $this->params['breadcrumbs'][] = $this->title;
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
+<!--- kommentars script -->
+<script type="text/javascript">
+	$("#comentsid").on("click",function(){
+		alert("hej");
+		$('#kommentarer').show();
+	});
+</script>
