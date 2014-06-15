@@ -6,7 +6,7 @@ $(document).ready(function(){
      */
     $('.carousel').carousel({
         auto: true,
-        period: 5000,
+        period: 7000,
         duration: 2000,
         markers: {
             type: "square" // default, cycle eller square t.ex
