@@ -103,11 +103,13 @@ AppAsset::register($this);
         <?= $content ?>
     </div>
 </div>
-<footer id="contact" class="container sideBorders" style="padding: 0px;">
-    <div class="copy text-center">
-        <a href="#home" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+<div id="footerWrapper">
+	<footer id="contact" class="sideBorders" style="">
+	<div class="copy text-center">
+        <a href="#home" id="toTop" style="display: block;">
+	        <span id="toTopHover" style="opacity: 1;"> </span>
+        </a>
     </div>
-
 	<a href="#top" id="toTop"><span id="topHover"></span></a>
 	<!-- pilen som man kan trycka på för att komma till toppen igen -->
 	<div id="contactPanel" class="panel" data-role="panel">
@@ -138,7 +140,7 @@ AppAsset::register($this);
 		</div>
 	</div>
 </footer>
-
+</div
 <?php $this->endBody() ?>
 </body>
 </html>
