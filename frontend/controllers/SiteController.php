@@ -83,7 +83,7 @@ class SiteController extends AppController
     public function actionLogin()
     {
         if (!\Yii::$app->user->isGuest) {
-            return $this->goHome();
+	        return $this->goHome();
         }
 
         $model = new LoginForm();
@@ -98,7 +98,10 @@ class SiteController extends AppController
 
     public function actionLogout()
     {
-        Yii::$app->user->logout();
+        if(\Yii::$app->user->logout()){
+	        echo "foo";
+	        die();
+        }
 
         return $this->goHome();
     }

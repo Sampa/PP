@@ -12,5 +12,9 @@ return [
 		    'showScriptName' => false,
 	    ],
     ],
+	'bootstrap' => ['gii'],
+	'modules' => [
+		'gii' => 'yii\gii\Module',
+	],
 
 ];
