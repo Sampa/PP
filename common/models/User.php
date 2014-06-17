@@ -27,13 +27,17 @@ class User extends ActiveRecord implements IdentityInterface
     const STATUS_ACTIVE = 10;
 
     const ROLE_USER = 10;
-
+	public static function tableName()
+	{
+		return "tbl_user";
+	}
     /**
      * Creates a new user
      *
      * @param  array       $attributes the attributes given by field => value
      * @return static|null the newly created model, or null on failure
      */
+
     public static function create($attributes)
     {
         /** @var User $user */
