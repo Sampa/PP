@@ -45,7 +45,7 @@ $this->title = 'Personal';
 											</div>
 											<div class="col-sm-9">
 												<p>smaken ramlar långt från OSTMACKAN</p>
-												<small>Sofie</small>
+												<medium>-Sofie</medium>
 											</div>
 										</div>
 									</blockquote>
@@ -78,7 +78,7 @@ $this->title = 'Personal';
 											</div>
 											<div class="col-sm-9">
 												<p>äpplen ramlar inte långt från BUSKAGET</p>
-												<small>Gusten</small>
+												<medium>-Gusten</medium>
 											</div>
 										</div>
 									</blockquote>
