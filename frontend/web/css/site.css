@@ -33,7 +33,7 @@ body {
 }
 
 .not-set {
-	color: #c55;
+	color: #cc5555;
 	font-style: italic;
 }
 
@@ -266,8 +266,9 @@ site/index.php
 /** END LAYOUTS MAIN **/
 
 /* sofies kommentarer css */
-#container12345{
-body { padding-top:30px; }
+#container12345{}
+/*raden under är scary _just nu_ då den skulle skriva över reglerna för alla sidor (body taggen innehåller hela sidan och finns i en uppsättning och vi har nog regler för den som det här kan krocka med...värt att titta på)*/
+/*body { padding-top:30px; }*/
 .widget .panel-body { padding:0px; }
 .widget .list-group { margin-bottom: 0; }
 .widget .panel-title { display:inline }
@@ -278,4 +279,4 @@ body { padding-top:30px; }
 .widget .action { margin-top:5px; }
 .widget .comment-text { font-size: 12px; }
 .widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
-}
+
