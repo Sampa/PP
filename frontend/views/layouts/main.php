@@ -71,7 +71,7 @@ AppAsset::register($this);
                         </ul>
                     </li>
                     <li class="menu-link page-scroll">
-                        <a class="" href="<?=Url::toRoute(["/site/blog"]);?>">blog</a>
+                        <a class="" href="<?=Url::toRoute(["/post"]);?>">blogg</a>
                     </li>
                     <li class="logo menu-link page-scroll">
                         <a title="Sofie" href="<?=Url::toRoute(["/site/index", "#"=>"about"]);?>">
