@@ -1,8 +1,9 @@
 <?php
 
-namespace app\models;
+namespace frontend\models;
 
 use Yii;
+use common\models\User;
 
 /**
  * This is the model class for table "tbl_post".
@@ -62,7 +63,7 @@ class Post extends \yii\db\ActiveRecord
      */
     public function getTblComments()
     {
-        return $this->hasMany(TblComment::className(), ['post_id' => 'id']);
+        return $this->hasMany(Comment::className(), ['post_id' => 'id']);
     }
 
     /**
@@ -70,7 +71,7 @@ class Post extends \yii\db\ActiveRecord
      */
     public function getAuthor()
     {
-        return $this->hasOne(@\frontend\TblUser::className(), ['id' => 'author_id']);
+        return $this->hasOne(User::className(), ['id' => 'author_id']);
     }
 
       /**

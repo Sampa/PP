@@ -2,9 +2,10 @@
 
 namespace frontend\controllers;
 
+//use app\frontend\models\PostSearch;
 use Yii;
-use app\models\Post;
-use app\models\PostSearch;
+use frontend\models\Post;
+use frontend\models\PostSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

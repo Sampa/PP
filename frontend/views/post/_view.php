@@ -4,8 +4,8 @@
 ?>
     <a href="single-page.html"><img src="/images/blog_pic1.jpg" alt="" class="blog_img img-responsive"/></a>
         <h4>
-        	<a href="single-page.html"> 
-        		<?php echo Html::a(Html::encode($model->title), ['view', 'id' => $model->id]);?> 
+        	<a href="single-page.html">
+        		<?php echo Html::a(Html::encode($model->title), ['view', 'id' => $model->id]);?>
         	</a>
         </h4>
         <div class="blog_list pull-left">
@@ -25,10 +25,10 @@
 		                <a href="#">
 		                    <i class="fa fa-coment" ></i>
 		                    <span>Coments</span>
-		                
-		            </li>   
+
+		            </li>
 		        </div>
-		        <li><i class="fa fa-user"></i><span><?php echo $model->getAuthor()->username;?></span></li>
+		        <li><i class="fa fa-user"></i><span><?php $model->author_id;?></span></li>
 		        <li><a href="#"><i class="fa fa-eye"></i><span>124 views</span></a></li>
 		    </ul>
 		</div>

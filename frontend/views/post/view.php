@@ -18,6 +18,8 @@ $this->params['breadcrumbs'][] = $this->title;
 		<h2 class="style">#<?= $model->id." ".Html::encode($model->title);?></h2>
 		<div class="details row">
 			<div class="col-md-4">
+				<?=Yii::$app->user->id;?>
+
 				<img src="/images/det_pic.jpg" alt="" class="img-responsive"/>
 			</div>
 			<div class="col-md-8" style="margin-top: -30px;">

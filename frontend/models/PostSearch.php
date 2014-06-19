@@ -1,12 +1,11 @@
 <?php
 
-namespace app\models;
+namespace frontend\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Post;
-
+use frontend\models\Post;
 /**
  * PostSearch represents the model behind the search form about `app\models\Post`.
  */
