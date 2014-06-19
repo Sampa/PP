@@ -133,11 +133,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
 	<div class="container12345" style="display:none" id="kommentarer">
 		<div class="row">
-			<div class="panel panel-default widget">
+			<div class="panel panel-info widget">
 				<div class="panel-heading">
 					<span class="glyphicon glyphicon-comment"></span>
 					<h3 class="panel-title">
-						Recent Comments</h3>
+						Coments</h3>
 					<span class="label label-info">
 						78</span>
 				</div>
@@ -150,13 +150,13 @@ $this->params['breadcrumbs'][] = $this->title;
 								<div class="col-xs-10 col-md-11">
 									<div>
 										<a href="http://www.jquery2dotnet.com/2013/10/google-style-login-page-desing-usign.html">
-											Google Style Login Page Design Using Bootstrap</a>
+											Är jag breakad igen...</a>
 										<div class="mic-info">
-											By: <a href="#">Bhaumik Patel</a> on 2 Aug 2013
+											By: <a href="#">sökfunktionen</a> on 2 Aug 2013
 										</div>
 									</div>
 									<div class="comment-text">
-										Awesome design
+										pls fix me
 									</div>
 									<div class="action">
 										<button type="button" class="btn btn-primary btn-xs" title="Edit">
@@ -178,14 +178,13 @@ $this->params['breadcrumbs'][] = $this->title;
 									<img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
 								<div class="col-xs-10 col-md-11">
 									<div>
-										<a href="http://bootsnipp.com/BhaumikPatel/snippets/Obgj">Admin Panel Quick Shortcuts</a>
+										<a href="http://bootsnipp.com/BhaumikPatel/snippets/Obgj">Such pretty</a>
 										<div class="mic-info">
-											By: <a href="#">Bhaumik Patel</a> on 11 Nov 2013
+											By: <a href="#">Derpina</a> on 11 Nov 2013
 										</div>
 									</div>
 									<div class="comment-text">
-										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-										euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+										very better than disqus! so much design! wow! 
 									</div>
 									<div class="action">
 										<button type="button" class="btn btn-primary btn-xs" title="Edit">
@@ -207,14 +206,13 @@ $this->params['breadcrumbs'][] = $this->title;
 									<img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
 								<div class="col-xs-10 col-md-11">
 									<div>
-										<a href="http://bootsnipp.com/BhaumikPatel/snippets/4ldn">Cool Sign Up</a>
+										<a href="http://bootsnipp.com/BhaumikPatel/snippets/4ldn">Men seriöööst</a>
 										<div class="mic-info">
-											By: <a href="#">Bhaumik Patel</a> on 11 Nov 2013
+											By: <a href="#">Daniel</a> on 11 Nov 2013
 										</div>
 									</div>
 									<div class="comment-text">
-										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-										euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+										Coments? come on!
 									</div>
 									<div class="action">
 										<button type="button" class="btn btn-primary btn-xs" title="Edit">
@@ -242,6 +240,6 @@ $this->params['breadcrumbs'][] = $this->title;
 <!--- kommentars script -->
 <script type="text/javascript">
 	$("#comentsid").on("click",function(){
-		$('#kommentarer').show();
+		$('#kommentarer').fadeToggle();
 	});
 </script>
