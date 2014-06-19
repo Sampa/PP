@@ -28,7 +28,7 @@
 
 		            </li>
 		        </div>
-		        <li><i class="fa fa-user"></i><span><?php $model->author_id;?></span></li>
+		        <li><i class="fa fa-user"></i><span><?= $model->author_id;?></span></li>
 		        <li><a href="#"><i class="fa fa-eye"></i><span>124 views</span></a></li>
 		    </ul>
 		</div>
@@ -40,4 +40,6 @@
 		<div class="read_more btm">
 		    <a href="single-page.html">view more</a>
 		</div>
-		<?php var_dump ($model->getTblComments()) ;?>
+<?php
+//var_dump ($model->getTblComments()) ;
+?>

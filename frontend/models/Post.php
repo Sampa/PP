@@ -4,6 +4,7 @@ namespace frontend\models;
 
 use Yii;
 use common\models\User;
+use frontend\models\Comment;
 
 /**
  * This is the model class for table "tbl_post".
