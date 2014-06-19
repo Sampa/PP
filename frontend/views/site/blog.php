@@ -32,8 +32,8 @@ $this->params['breadcrumbs'][] = $this->title;
 									<a href="#">
 										<i class="fa fa-coment" ></i>
 										<span>Coments</span>
-									
-								</li>	
+
+								</li>
 							</div>
 							<li><i class="fa fa-user"></i><span>Admin</span></li>
 							<li><a href="#"><i class="fa fa-eye"></i><span>124 views</span></a></li>
@@ -249,7 +249,6 @@ $this->params['breadcrumbs'][] = $this->title;
 <!--- kommentars script -->
 <script type="text/javascript">
 	$("#comentsid").on("click",function(){
-		alert("hej");
 		$('#kommentarer').show();
 	});
 </script>
