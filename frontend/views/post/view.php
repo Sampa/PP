@@ -55,8 +55,8 @@ $this->params['breadcrumbs'][] = $this->title;
 						</ul>
 					</div>
 					<h4>
-						<span>Skapad: <?=$model->create_time;?></span>
-						<span>Senast uppdaterad: <?=$model->update_time;?></span>
+						<span>Skapad: <?php echo date('H:i  j/m-Y   ',$model->create_time); ?></span>
+						<span>Senast uppdaterad: <?php echo date(' H:i j/m-Y  ',$model->update_time);?></span>
 					</h4>
 				</div>
 			</div>

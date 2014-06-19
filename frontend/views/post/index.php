@@ -16,20 +16,32 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <?php echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php
+    // echo $this->render('_search', ['model' => $searchModel]); 
+    ?>
 
     <p>
         <?= Html::a(Yii::t('app', 'Create {modelClass}', [
-  'modelClass' => 'Post',
-]), ['create'], ['class' => 'btn btn-success']) ?>
+        'modelClass' => 'Post',
+        ]), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
-    <?= ListView::widget([
-        'dataProvider' => $dataProvider,
-        'itemOptions' => ['class' => 'item'],
-        'itemView' => function ($model, $key, $index, $widget) {
-            return Html::a(Html::encode($model->title), ['view', 'id' => $model->id]);
-        },
-    ]) ?>
-
+    <div class="blog"><!-- start main -->
+        <div class="main row" style="padding: 0px;">
+            <div class="col-md-8 blog_left">
+                <h2 class="style">our recent blogs</h2>
+                <div class="blog_main">
+               
+                    <?= ListView::widget([
+                    'layout' => "{items}\n{pager}\n{summary}",
+                    'dataProvider' => $dataProvider,
+                    'itemOptions' => ['class' => 'item'],
+                    'itemView' => function ($model, $key, $index, $widget) {
+                        return Yii\base\View::render("_view",array("model"=>$model));
+                    },
+                    ]) ?>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

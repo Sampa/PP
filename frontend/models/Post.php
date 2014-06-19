@@ -34,7 +34,7 @@ class Post extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['title', 'content', 'status', 'author_id'], 'required'],
+            [['title', 'content', 'status'], 'required'],
             [['content'], 'string'],
             [['status', 'create_time', 'update_time', 'author_id'], 'integer'],
             [['title'], 'string', 'max' => 128]
@@ -70,6 +70,21 @@ class Post extends \yii\db\ActiveRecord
      */
     public function getAuthor()
     {
-        return $this->hasOne(TblUser::className(), ['id' => 'author_id']);
+        return $this->hasOne(@\frontend\TblUser::className(), ['id' => 'author_id']);
+    }
+
+      /**
+    * Autoincriment the tale id
+    * @param [type] $insert [description]
+    * @return [type] [description]
+    */
+    public function beforeSave($insert){
+        if ($this->isNewRecord){
+            $this->create_time = time();
+        }
+        $this->update_time = time();
+        $this->author_id=Yii::$app->user->id;
+
+        return parent::beforeSave($insert);
     }
 }
