@@ -1,5 +1,6 @@
 <?php
 use yii\helpers\Html;
+use yii\helpers\Url;
 
 /**
  * @var yii\web\View $this
@@ -7,6 +8,9 @@ use yii\helpers\Html;
 $this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<div>
+	<a class="button primary large" title="Posts" href="<?=Url::toRoute(["/post/index"]);?>">Posts </a>
+</div>
 <div class="blog"><!-- start main -->
 		<div class="main row" style="padding: 0px;">
 			<div class="col-md-8 blog_left">
