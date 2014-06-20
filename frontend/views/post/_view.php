@@ -22,7 +22,7 @@
 
 		        <li>
 			        <i class="fa fa-user"></i>
-			        <span><?= $model->author_id;?></span>
+			        <span><?= $model->author->username;?></span>
 		        </li>
 		        <li><a href="#"><i class="fa fa-eye"></i><span>124 views</span></a></li>
 		    </ul>
