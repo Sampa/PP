@@ -72,7 +72,7 @@ $this->params['breadcrumbs'][] = $this->title;
 							</li>
 							<li>
 								<i class="fa fa-user"></i>
-								<span><?= $model->author_id;?></span>
+								<span><?= $model->author->username;?></span>
 							</li>
 							<li><a href="#"><i class="fa fa-eye"></i><span>124 views</span></a></li>
 							<li>
@@ -184,7 +184,7 @@ $this->params['breadcrumbs'][] = $this->title;
 										</div>
 									</div>
 									<div class="comment-text">
-										very better than disqus! so much design! wow! 
+										very better than disqus! so much design! wow!
 									</div>
 									<div class="action">
 										<button type="button" class="btn btn-primary btn-xs" title="Edit">
