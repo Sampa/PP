@@ -269,7 +269,7 @@ site/index.php
 #container12345{}
 /*raden under är scary _just nu_ då den skulle skriva över reglerna för alla sidor (body taggen innehåller hela sidan och finns i en uppsättning och vi har nog regler för den som det här kan krocka med...värt att titta på)*/
 /*body { padding-top:30px; }*/
-.widget .panel-heading {color: rgba(165, 234, 220, 1);}
+.widget .panel-heading {background-color: rgba(165, 234, 220, 1);}
 .widget .panel-body { padding:0px; }
 .widget .list-group { margin-bottom: 0; }
 .widget .panel-title { display:inline }

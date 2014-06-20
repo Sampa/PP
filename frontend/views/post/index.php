@@ -29,7 +29,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="blog"><!-- start main -->
         <div class="main row" style="padding: 0px;">
             <div class="col-md-8 blog_left">
-                <h2 class="style">our recent blogs</h2>
                 <div class="blog_main">
                
                     <?= ListView::widget([

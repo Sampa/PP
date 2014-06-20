@@ -25,6 +25,7 @@ class AppAsset extends AssetBundle
 //	    keep these two at the end of this array so none of our custom css is overridden
 	    'css/style.css',
 	    'css/site.css',
+        'css/post.css',
     ];
     public $js = [
         'js/jquery.easing.1.3.js',
