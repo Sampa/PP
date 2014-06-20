@@ -44,14 +44,10 @@ $(document).ready(function(){
         $('#comments').toggleClass('active');
     });
 
-    $('article > .title > .close').on('click', function(event) {
+    $('#closeComments').on('click', function(event) {
         event.preventDefault();
         $('#comments').removeClass('active');
         $(this).closest('article').removeClass('active');
-    });
-    $('#comments > .title > .close').on('click', function(event) {
-        event.preventDefault();
-        $(this).closest('#comments').removeClass('active');
     });
     /**
      * End comments
