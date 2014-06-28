@@ -269,7 +269,18 @@ site/index.php
 #container12345{}
 /*raden under är scary _just nu_ då den skulle skriva över reglerna för alla sidor (body taggen innehåller hela sidan och finns i en uppsättning och vi har nog regler för den som det här kan krocka med...värt att titta på)*/
 /*body { padding-top:30px; }*/
-.widget .panel-heading {background-color: rgba(165, 234, 220, 1);}
+.widget .panel-heading {background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.5, #569667),
+    color-stop(1, #366942)
+);
+background-image: -o-linear-gradient(bottom, #569667 50%, #366942 100%);
+background-image: -moz-linear-gradient(bottom, #569667 50%, #366942 100%);
+background-image: -webkit-linear-gradient(bottom, #569667 50%, #366942 100%);
+background-image: -ms-linear-gradient(bottom, #569667 50%, #366942 100%);
+background-image: linear-gradient(to bottom, #569667 50%, #366942 100%);}
 .widget .panel-body { padding:0px; }
 .widget .list-group { margin-bottom: 0; }
 .widget .panel-title { display:inline }
