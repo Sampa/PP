@@ -79,13 +79,6 @@ $this->params['breadcrumbs'][] = $this->title;
 								<a href=""><i class="fa fa-heart"></i><span> 28</span></a>
 							</li>
 						</ul>
-						<div id="comentsid">
-							<li>
-								<a href="#">
-									<i class="fa fa-coment" ></i>
-									<span>Coments</span>
-							</li>
-						</div>
 					</div>
 <!--					<h4>-->
 <!--						<span>Skapad: --><?php //echo date('H:i  j/m-Y   ',$model->create_time); ?><!--</span>-->
@@ -109,17 +102,12 @@ $this->params['breadcrumbs'][] = $this->title;
 	?>
 		<!-- DISQUS KOMMENTAR VARIANT BÖRJAR -->
 	<div id="comments" class="col-xs-offset-1 col-xs-11 col-sm-6 col-md-4">
-		<h1 class="title">
-			Comments
-			<button id="closeComments" type="button" class="close" aria-hidden="true">×</button>
-		</h1>
 		<div class="panel panel-info widget">
 			<div class="panel-heading">
 				<span class="glyphicon glyphicon-comment"></span>
-				<h3 class="panel-title">
-					Coments</h3>
-					<span class="label label-info">
-						78</span>
+				<h3 class="panel-title" style="color:#fff; ">Comments</h3>
+					<span class="label label-info">78</span>
+				<button id="closeComments" type="button" class="close" aria-hidden="true">×</button>
 			</div>
 			<div class="panel-body">
 				<ul class="list-group">
