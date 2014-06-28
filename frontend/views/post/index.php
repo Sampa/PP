@@ -13,13 +13,9 @@ $this->title = Yii::t('app', 'Posts');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="post-index">
-
-   
-
     <?php
-    // echo $this->render('_search', ['model' => $searchModel]); 
+    // echo $this->render('_search', ['model' => $searchModel]);
     ?>
-
     <p>
         <?= Html::a(Yii::t('app', 'Create {modelClass}', [
         'modelClass' => 'Post',
@@ -30,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="main row" style="padding: 0px;">
             <div class="col-md-8 blog_left">
                 <div class="blog_main">
-               
+
                     <?= ListView::widget([
                     'layout' => "{items}\n{pager}\n{summary}",
                     'dataProvider' => $dataProvider,
